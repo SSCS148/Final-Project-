@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Kunstler+Script&display=swap");
+body {
+  font-family: "Kunstler Script", cursive;
+  margin: 0;
+  padding: 0;
+  background: url("https://i.etsystatic.com/18965517/r/il/91e1d2/3642966670/il_fullxfull.3642966670_c485.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+header {
+  background-color: #003366e8;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+header h1 {
+  margin: 0;
+  font-size: 40px;
+}
+nav {
+  background-color: #003366e8;
+  position: fixed;
+  width: 100%;
+  top: 60px;
+  z-index: 1000;
+  position: relative;
+}
+nav ul {
+  list-style-type: none;
+  padding: 10px 0;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+nav ul li a:hover {
+  background-color: #005599;
+  border-radius: 5px;
+}
+main {
+  width: 80%;
+  max-width: 800px;
+  padding: 160px 20px 20px;
+  background-color: rgba(255, 255, 255, 0.591);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 20px auto;
+  text-align: center;
+}
+section {
+  margin-bottom: 20px;
+}
+section h2 {
+  border-bottom: 2px solid #003366;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.input-group {
+  margin-bottom: 15px;
+}
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+}
+.input-group input,
+.input-group textarea {
+  width: calc(100% - 22px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.password-container {
+  position: relative;
+}
+.password-container button {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #000000;
+  padding: 5px;
+  font-size: 12px;
+  width: 50px;
+  height: 30px;
+}
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #003366;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #d99e1c;
+}
+#message {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ff0000;
+}
+footer {
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+#posts {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .post-container {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+  }
+/* styles.css */
+.comment-container {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  max-width: 400px; /* Définir une largeur maximale */
+  overflow-y: auto; /* Ajouter un défilement vertical si nécessaire */
+}
+
+.comment-container p {
+  margin: 5px 0;
+}
+
+#commentsSection {
+  max-height: 400px; /* Hauteur maximale pour la bannière défilante */
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}

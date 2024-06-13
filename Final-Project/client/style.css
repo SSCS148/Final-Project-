@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kunstler+Script&display=swap');
+
+body {
+    font-family: 'Kunstler Script', cursive;
+    margin: 0;
+    padding: 0;
+    background: url('https://i.etsystatic.com/18965517/r/il/91e1d2/3642966670/il_fullxfull.3642966670_c485.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-left: 0%;
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    padding-top: 0%;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.input-group input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-container button {
+    position: absolute;
+    right: 5px;
+    top: 63%;
+    transform: translateY(-50%);
+    background: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000000;
+    padding: 5px;
+    font-size: 12px;
+    width: 50px;
+    height: 30px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 160Zpx;
+    border: none;
+    border-radius: 5px;
+    background-color: #fbb214ba;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #fbb214ba;
+}
+
+#message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ff0000;
+}
+
